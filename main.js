@@ -220,7 +220,7 @@ if (window.location.pathname.length>20){
 	document.getElementById("body").appendChild(container);
 
 	var title = document.createElement("h3");
-	title.innerHTML = "URL Obfuscator for VDO.Ninja<br />";
+	title.innerHTML = "URL Obfuscator for RTBS.in<br />";
 	container.appendChild(title);
 
 	var input = document.createElement("input");
@@ -249,7 +249,7 @@ if (window.location.pathname.length>20){
 	
 	var div = document.createElement("a");
 	div.style.margin = "20px";
-	div.href= "https://invite.vdo.ninja";
+	div.href= "https://invite.rtbs.in";
 	div.innerHTML = "or create a new Invite Link here";
 	container.appendChild(div);
 	
